@@ -2,18 +2,18 @@
    Nicholas C. Zakas
 ## Table of Contents
 
-* [Introduction]() 
+* [Introduction](00-Introduction.md) 
     * [The Road to ECMAScript 6]() 
     * [About This Book]() 
     * [Acknowledgments]() 
-* [Block Bindings]() 
+* [Block Bindings](01-Block-Bindings.md) 
     * [Var Declarations and Hoisting]() 
     * [Block-Level Declarations]() 
     * [Block Binding in Loops]() 
     * [Global Block Bindings]() 
     * [Emerging Best Practices for Block Bindings]() 
     * [Summary]() 
-* [Strings and Regular Expressions]() 
+* [Strings and Regular Expressions](02-Strings-and-Regular-Expressions.md) 
     * [Better Unicode Support]() 
     * [Other String Changes]() 
     * [Other Regular Expression Changes]() 
@@ -134,14 +134,3 @@
     * [The Array.prototype.includes() Method]() 
     * [Change to Function-Scoped Strict Mode]() 
     
-    
-    
-* [Preface](preface.md/#preface)
-* [Chapter 1: Why Functional Programming?](ch1.md/#chapter-1-why-functional-programming)
-
-    * [Confidence](ch1.md/#confidence)
-    * [Communication](ch1.md/#communication)
-    * [Readability](ch1.md/#readability)
-    * [Perspective](ch1.md/#perspective)
-    * [How to Find Balance](ch1.md/#how-to-find-balance)
-    * [Resources](ch1.md/#resources)
