@@ -1,8 +1,5 @@
 # Functional-Light JavaScript
-
-<a href="https://leanpub.com/fljs"><img src="images/marketing/front-cover-small.png" width="20%"></a>
-
-[![Buy on Leanpub](https://img.shields.io/badge/Buy-Leanpub-yellow.svg)](https://leanpub.com/fljs) [![Buy on Amazon](https://img.shields.io/badge/Buy-Amazon-yellow.svg)](http://amazon.fljsbook.com)
+   Nicholas C. Zakas
 
 ## Table of Contents
 
