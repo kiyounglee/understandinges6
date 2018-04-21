@@ -1,92 +1,147 @@
-# Functional-Light JavaScript
+# Understanding ECMAScript 6
    Nicholas C. Zakas
-
 ## Table of Contents
-
-* [Foreword](foreword.md/#foreword)
+    * [Introduction] 
+    * [The Road to ECMAScript 6]
+    * [About This Book]
+    * [Acknowledgments]
+    * [Block Bindings]
+    * [Var Declarations and Hoisting]
+    * [Block-Level Declarations]
+    * [Block Binding in Loops]
+    * [Global Block Bindings]
+    * [Emerging Best Practices for Block Bindings]
+    * [Summary]
+    * [Strings and Regular Expressions]
+    * [Better Unicode Support]
+    * [Other String Changes]
+    * [Other Regular Expression Changes]
+    * [Template Literals]
+    * [Summary]
+    * [Functions]
+    * [Functions with Default Parameter Values]
+    * [Working with Unnamed Parameters]
+    * [Increased Capabilities of the Function Constructor]
+    * [The Spread Operator]
+    * [ECMAScript 6’s name Property]
+    * [Clarifying the Dual Purpose of Functions]
+    * [Block-Level Functions]
+    * [Arrow Functions]
+    * [Tail Call Optimization]
+    * [Summary]
+    * [Expanded Object Functionality]
+    * [Object Categories]
+    * [Object Literal Syntax Extensions]
+    * [New Methods]
+    * [Duplicate Object Literal Properties]
+    * [Own Property Enumeration Order]
+    * [More Powerful Prototypes]
+    * [A Formal Method Definition]
+    * [Summary]
+    * [Destructuring for Easier Data Access]
+    * [Why is Destructuring Useful?]
+    * [Object Destructuring]
+    * [Array Destructuring]
+    * [Mixed Destructuring]
+    * [Destructured Parameters]
+    * [Summary]
+    * [Symbols and Symbol Properties]
+    * [Creating Symbols]
+    * [Using Symbols]
+    * [Sharing Symbols]
+    * [Symbol Coercion]
+    * [Retrieving Symbol Properties]
+    * [Exposing Internal Operations with Well-Known Symbols]
+    * [Summary]
+    * [Sets and Maps]
+    * [Sets and Maps in ECMAScript 5]
+    * [Problems with Workarounds]
+    * [Sets in ECMAScript 6]
+    * [Maps in ECMAScript 6]
+    * [Summary]
+    * [Iterators and Generators]
+    * [The Loop Problem]
+    * [What are Iterators?]
+    * [What Are Generators?]
+    * [Iterables and for-of]
+    * [Built-in Iterators]
+    * [The Spread Operator and Non-Array Iterables]
+    * [Advanced Iterator Functionality]
+    * [Asynchronous Task Running]
+    * [Summary]
+    * [Introducing JavaScript Classes]
+    * [Class-Like Structures in ECMAScript 5]
+    * [Class Declarations]
+    * [Class Expressions]
+    * [Classes as First-Class Citizens]
+    * [Accessor Properties]
+    * [Computed Member Names]
+    * [Generator Methods]
+    * [Static Members]
+    * [Inheritance with Derived Classes]
+    * [Using new.target in Class Constructors]
+    * [Summary]
+    * [Improved Array Capabilities]
+    * [Creating Arrays]
+    * [New Methods on All Arrays]
+    * [Typed Arrays]
+    * [Similarities Between Typed and Regular Arrays]
+    * [Differences Between Typed and Regular Arrays]
+    * [Summary]
+    * [Promises and Asynchronous Programming]
+    * [Asynchronous Programming Background]
+    * [Promise Basics]
+    * [Global Promise Rejection Handling]
+    * [Chaining Promises]
+    * [Responding to Multiple Promises]
+    * [Inheriting from Promises]
+    * [Summary]
+    * [Proxies and the Reflection API]
+    * [The Array Problem]
+    * [What are Proxies and Reflection?]
+    * [Creating a Simple Proxy]
+    * [Validating Properties Using the set Trap]
+    * [Object Shape Validation Using the get Trap]
+    * [Hiding Property Existence Using the has Trap]
+    * [Preventing Property Deletion with the deleteProperty Trap]
+    * [Prototype Proxy Traps]
+    * [Object Extensibility Traps]
+    * [Property Descriptor Traps]
+    * [The ownKeys Trap]
+    * [Function Proxies with the apply and construct Traps]
+    * [Revocable Proxies]
+    * [Solving the Array Problem]
+    * [Using a Proxy as a Prototype]
+    * [Summary]
+    * [Encapsulating Code With Modules]
+    * [What are Modules?]
+    * [Basic Exporting]
+    * [Basic Importing]
+    * [Renaming Exports and Imports]
+    * [Default Values in Modules]
+    * [Re-exporting a Binding]
+    * [Importing Without Bindings]
+    * [Loading Modules]
+    * [Summary]
+    * [Appendix A: Smaller Changes]
+    * [Working with Integers]
+    * [New Math Methods]
+    * [Unicode Identifiers]
+    * [Formalizing the __proto__ Property]
+    * [Appendix B: Understanding ECMAScript 7 (2016)]
+    * [The Exponentiation Operator]
+    * [The Array.prototype.includes() Method]
+    * [Change to Function-Scoped Strict Mode]
+    
+    
+    
+    
 * [Preface](preface.md/#preface)
 * [Chapter 1: Why Functional Programming?](ch1.md/#chapter-1-why-functional-programming)
-    * [At a Glance](ch1.md/#at-a-glance)
+    [At a Glance](ch1.md/#at-a-glance)
     * [Confidence](ch1.md/#confidence)
     * [Communication](ch1.md/#communication)
     * [Readability](ch1.md/#readability)
     * [Perspective](ch1.md/#perspective)
     * [How to Find Balance](ch1.md/#how-to-find-balance)
     * [Resources](ch1.md/#resources)
-* [Chapter 2: The Nature Of Functions](ch2.md/#chapter-2-the-nature-of-functions)
-    * [What Is A Function?](ch2.md/#what-is-a-function)
-    * [Function Input](ch2.md/#function-input)
-    * [Named Arguments](ch2.md/#named-arguments)
-    * [Function Output](ch2.md/#function-output)
-    * [Functions Of Functions](ch2.md/#functions-of-functions)
-    * [Syntax](ch2.md/#syntax)
-    * [What's This?](ch2.md/#whats-this)
-* [Chapter 3: Managing Function Inputs](ch3.md/#chapter-3-managing-function-inputs)
-    * [All For One](ch3.md/#all-for-one)
-    * [Adapting Arguments to Parameters](ch3.md/#adapting-arguments-to-parameters)
-    * [Some Now, Some Later](ch3.md/#some-now-some-later)
-    * [One At A Time](ch3.md/#one-at-a-time)
-    * [Order Matters](ch3.md/#order-matters)
-    * [No Points](ch3.md/#no-points)
-* [Chapter 4: Composing Functions](ch4.md/#chapter-4-composing-functions)
-    * [Output To Input](ch4.md/#output-to-input)
-    * [General Composition](ch4.md/#general-composition)
-    * [Reordered Composition](ch4.md/#reordered-composition)
-    * [Abstraction](ch4.md/#abstraction)
-    * [Revisiting Points](ch4.md/#revisiting-points)
-* [Chapter 5: Reducing Side Effects](ch5.md/#chapter-5-reducing-side-effects)
-    * [Effects On The Side, Please](ch5.md/#effects-on-the-side-please)
-    * [Once Is Enough, Thanks](ch5.md/#once-is-enough-thanks)
-    * [Pure Bliss](ch5.md/#pure-bliss)
-    * [There Or Not](ch5.md/#there-or-not)
-    * [Purifying](ch5.md/#purifying)
-* [Chapter 6: Value Immutability](ch6.md/#chapter-6-value-immutability)
-    * [Primitive Immutability](ch6.md/#primitive-immutability)
-    * [Value To Value](ch6.md/#value-to-value)
-    * [Reassignment](ch6.md/#reassignment)
-    * [Performance](ch6.md/#performance)
-    * [Treatment](ch6.md/#treatment)
-* [Chapter 7: Closure vs Object](ch7.md/#chapter-7-closure-vs-object)
-    * [The Same Page](ch7.md/#the-same-page)
-    * [Look Alike](ch7.md/#look-alike)
-    * [Two Roads Diverged In A Wood...](ch7.md/#two-roads-diverged-in-a-wood)
-* [Chapter 8: Recursion](ch8.md/#chapter-8-recursion)
-    * [Definition](ch8.md/#definition)
-    * [Declarative Recursion](ch8.md/#declarative-recursion)
-    * [Stack](ch8.md/#stack)
-    * [Rearranging Recursion](ch8.md/#rearranging-recursion)
-* [Chapter 9: List Operations](ch9.md/#chapter-9-list-operations)
-    * [Non-FP List Processing](ch9.md/#non-fp-list-processing)
-    * [Map](ch9.md/#map)
-    * [Filter](ch9.md/#filter)
-    * [Reduce](ch9.md/#reduce)
-    * [Advanced List Operations](ch9.md/#advanced-list-operations)
-    * [Method vs. Standalone](ch9.md/#method-vs-standalone)
-    * [Looking For Lists](ch9.md/#looking-for-lists)
-    * [Fusion](ch9.md/#fusion)
-    * [Beyond Lists](ch9.md/#beyond-lists)
-* [Chapter 10: Functional Async](ch10.md/#chapter-10-functional-async)
-    * [Time As State](ch10.md/#time-as-state)
-    * [Eager vs Lazy](ch10.md/#eager-vs-lazy)
-    * [Reactive FP](ch10.md/#reactive-fp)
-* [Chapter 11: Putting It All Together](ch11.md/#chapter-11-putting-it-all-together)
-    * [Setup](ch11.md/#setup)
-    * [Stock Events](ch11.md/#stock-events)
-    * [Stock Ticker UI](ch11.md/#stock-ticker-ui)
-* [Appendix A: Transducing](apA.md/#appendix-a-transducing)
-    * [Why, First](apA.md/#why-first)
-    * [How, Next](apA.md/#how-next)
-    * [What, Finally](apA.md/#what-finally)
-* [Appendix B: The Humble Monad](apB.md/#appendix-b-the-humble-monad)
-    * [Type](apB.md/#type)
-    * [Loose Interface](apB.md/#loose-interface)
-    * [Just a Monad](apB.md/#just-a-monad)
-    * [Maybe](apB.md/#maybe)
-    * [Humble](apB.md/#humble)
-* [Appendix C: FP Libraries](apC.md/#appendix-c-fp-libraries)
-    * [Stuff to Investigate](apC.md/#stuff-to-investigate)
-    * [Ramda](apC.md/#ramda-0230)
-    * [Lodash/fp](apC.md/#lodashfp-4174)
-    * [Mori](apC.md/#mori-032)
-    * [Bonus: FPO](apC.md/#bonus-fpo)
-    * [Bonus #2: fasy](apC.md/#bonus-2-fasy)
