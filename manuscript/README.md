@@ -1,7 +1,6 @@
 # Understanding ECMAScript 6
    Nicholas C. Zakas
 ## Table of Contents
-
 * [Introduction](00-Introduction.md) 
     * [The Road to ECMAScript 6]() 
     * [About This Book]() 
