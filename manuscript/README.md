@@ -2,9 +2,9 @@
    Nicholas C. Zakas
 ## Table of Contents
 * [Introduction](00-Introduction.md) 
-    * [The Road to ECMAScript 6]() 
-    * [About This Book]() 
-    * [Acknowledgments]() 
+    * [The Road to ECMAScript 6]
+    * [About This Book] 
+    * [Acknowledgments]
 * [Block Bindings](01-Block-Bindings.md) 
     * [Var Declarations and Hoisting]() 
     * [Block-Level Declarations]() 
