@@ -2,7 +2,7 @@
    Nicholas C. Zakas
 ## Table of Contents
 
-* [Introduction] 
+* [Introduction]() 
     * [The Road to ECMAScript 6]
     * [About This Book]
     * [Acknowledgments]
