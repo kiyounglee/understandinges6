@@ -132,10 +132,4 @@
     * [The Array.prototype.includes() Method](B-ECMAScript-7.md#the-arrayprototypeincludes-method) 
     * [Change to Function-Scoped Strict Mode](B-ECMAScript-7.md#change-to-function-scoped-strict-mode) 
 
-
-* [Appendix B: Understanding ECMAScript 7 (2016)](B-ECMAScript-7.md)   
-
-    `[The Exponentiation Operator](B-ECMAScript-7.md#the-exponentiation-operator)    
-    [The Array.prototype.includes() Method](B-ECMAScript-7.md#the-arrayprototypeincludes-method)     
-    [Change to Function-Scoped Strict Mode](B-ECMAScript-7.md#change-to-function-scoped-strict-mode) `
         
