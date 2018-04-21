@@ -3,136 +3,136 @@
 ## Table of Contents
 
 * [Introduction]() 
-    * [The Road to ECMAScript 6]
-    * [About This Book]
-    * [Acknowledgments]
-* [Block Bindings]
-    * [Var Declarations and Hoisting]
-    * [Block-Level Declarations]
-    * [Block Binding in Loops]
-    * [Global Block Bindings]
-    * [Emerging Best Practices for Block Bindings]
-    * [Summary]
-* [Strings and Regular Expressions]
-    * [Better Unicode Support]
-    * [Other String Changes]
-    * [Other Regular Expression Changes]
-    * [Template Literals]
-    * [Summary]
-* [Functions]
-    * [Functions with Default Parameter Values]
-    * [Working with Unnamed Parameters]
-    * [Increased Capabilities of the Function Constructor]
-    * [The Spread Operator]
-    * [ECMAScript 6’s name Property]
-    * [Clarifying the Dual Purpose of Functions]
-    * [Block-Level Functions]
-    * [Arrow Functions]
-    * [Tail Call Optimization]
-    * [Summary]
-* [Expanded Object Functionality]
-    * [Object Categories]
-    * [Object Literal Syntax Extensions]
-    * [New Methods]
-    * [Duplicate Object Literal Properties]
-    * [Own Property Enumeration Order]
-    * [More Powerful Prototypes]
-    * [A Formal Method Definition]
-    * [Summary]
-* [Destructuring for Easier Data Access]
-    * [Why is Destructuring Useful?]
-    * [Object Destructuring]
-    * [Array Destructuring]
-    * [Mixed Destructuring]
-    * [Destructured Parameters]
-    * [Summary]
-* [Symbols and Symbol Properties]
-    * [Creating Symbols]
-    * [Using Symbols]
-    * [Sharing Symbols]
-    * [Symbol Coercion]
-    * [Retrieving Symbol Properties]
-    * [Exposing Internal Operations with Well-Known Symbols]
-    * [Summary]
-* [Sets and Maps]
-    * [Sets and Maps in ECMAScript 5]
-    * [Problems with Workarounds]
-    * [Sets in ECMAScript 6]
-    * [Maps in ECMAScript 6]
-    * [Summary]
-* [Iterators and Generators]
-    * [The Loop Problem]
-    * [What are Iterators?]
-    * [What Are Generators?]
-    * [Iterables and for-of]
-    * [Built-in Iterators]
-    * [The Spread Operator and Non-Array Iterables]
-    * [Advanced Iterator Functionality]
-    * [Asynchronous Task Running]
-    * [Summary]
-* [Introducing JavaScript Classes]
-    * [Class-Like Structures in ECMAScript 5]
-    * [Class Declarations]
-    * [Class Expressions]
-    * [Classes as First-Class Citizens]
-    * [Accessor Properties]
-    * [Computed Member Names]
-    * [Generator Methods]
-    * [Static Members]
-    * [Inheritance with Derived Classes]
-    * [Using new.target in Class Constructors]
-    * [Summary]
-* [Improved Array Capabilities]
-    * [Creating Arrays]
-    * [New Methods on All Arrays]
-    * [Typed Arrays]
-    * [Similarities Between Typed and Regular Arrays]
-    * [Differences Between Typed and Regular Arrays]
-    * [Summary]
-* [Promises and Asynchronous Programming]
-    * [Asynchronous Programming Background]
-    * [Promise Basics]
-    * [Global Promise Rejection Handling]
-    * [Chaining Promises]
-    * [Responding to Multiple Promises]
-    * [Inheriting from Promises]
-    * [Summary]
-* [Proxies and the Reflection API]
-    * [The Array Problem]
-    * [What are Proxies and Reflection?]
-    * [Creating a Simple Proxy]
-    * [Validating Properties Using the set Trap]
-    * [Object Shape Validation Using the get Trap]
-    * [Hiding Property Existence Using the has Trap]
-    * [Preventing Property Deletion with the deleteProperty Trap]
-    * [Prototype Proxy Traps]
-    * [Object Extensibility Traps]
-    * [Property Descriptor Traps]
-    * [The ownKeys Trap]
-    * [Function Proxies with the apply and construct Traps]
-    * [Revocable Proxies]
-    * [Solving the Array Problem]
-    * [Using a Proxy as a Prototype]
-    * [Summary]
-* [Encapsulating Code With Modules]
-    * [What are Modules?]
-    * [Basic Exporting]
-    * [Basic Importing]
-    * [Renaming Exports and Imports]
-    * [Default Values in Modules]
-    * [Re-exporting a Binding]
-    * [Importing Without Bindings]
-    * [Loading Modules]
-    * [Summary]
-* [Appendix A: Smaller Changes]
-    * [Working with Integers]
-    * [New Math Methods]
-    * [Unicode Identifiers]
-    * [Formalizing the __proto__ Property]
-* [Appendix B: Understanding ECMAScript 7 (2016)]
-    * [The Exponentiation Operator]
-    * [The Array.prototype.includes() Method]
-    * [Change to Function-Scoped Strict Mode]
+    * [The Road to ECMAScript 6]() 
+    * [About This Book]() 
+    * [Acknowledgments]() 
+* [Block Bindings]() 
+    * [Var Declarations and Hoisting]() 
+    * [Block-Level Declarations]() 
+    * [Block Binding in Loops]() 
+    * [Global Block Bindings]() 
+    * [Emerging Best Practices for Block Bindings]() 
+    * [Summary]() 
+* [Strings and Regular Expressions]() 
+    * [Better Unicode Support]() 
+    * [Other String Changes]() 
+    * [Other Regular Expression Changes]() 
+    * [Template Literals]() 
+    * [Summary]() 
+* [Functions]() 
+    * [Functions with Default Parameter Values]() 
+    * [Working with Unnamed Parameters]() 
+    * [Increased Capabilities of the Function Constructor]() 
+    * [The Spread Operator]() 
+    * [ECMAScript 6’s name Property]() 
+    * [Clarifying the Dual Purpose of Functions]() 
+    * [Block-Level Functions]() 
+    * [Arrow Functions]() 
+    * [Tail Call Optimization]() 
+    * [Summary]() 
+* [Expanded Object Functionality]() 
+    * [Object Categories]() 
+    * [Object Literal Syntax Extensions]() 
+    * [New Methods]() 
+    * [Duplicate Object Literal Properties]() 
+    * [Own Property Enumeration Order]() 
+    * [More Powerful Prototypes]() 
+    * [A Formal Method Definition]() 
+    * [Summary]() 
+* [Destructuring for Easier Data Access]() 
+    * [Why is Destructuring Useful?]() 
+    * [Object Destructuring]() 
+    * [Array Destructuring]() 
+    * [Mixed Destructuring]() 
+    * [Destructured Parameters]() 
+    * [Summary]() 
+* [Symbols and Symbol Properties]() 
+    * [Creating Symbols]() 
+    * [Using Symbols]() 
+    * [Sharing Symbols]() 
+    * [Symbol Coercion]() 
+    * [Retrieving Symbol Properties]() 
+    * [Exposing Internal Operations with Well-Known Symbols]() 
+    * [Summary]() 
+* [Sets and Maps]() 
+    * [Sets and Maps in ECMAScript 5]() 
+    * [Problems with Workarounds]() 
+    * [Sets in ECMAScript 6]() 
+    * [Maps in ECMAScript 6]() 
+    * [Summary]() 
+* [Iterators and Generators]() 
+    * [The Loop Problem]() 
+    * [What are Iterators?]() 
+    * [What Are Generators?]() 
+    * [Iterables and for-of]() 
+    * [Built-in Iterators]() 
+    * [The Spread Operator and Non-Array Iterables]() 
+    * [Advanced Iterator Functionality]() 
+    * [Asynchronous Task Running]() 
+    * [Summary]() 
+* [Introducing JavaScript Classes]() 
+    * [Class-Like Structures in ECMAScript 5]() 
+    * [Class Declarations]() 
+    * [Class Expressions]() 
+    * [Classes as First-Class Citizens]() 
+    * [Accessor Properties]() 
+    * [Computed Member Names]() 
+    * [Generator Methods]() 
+    * [Static Members]() 
+    * [Inheritance with Derived Classes]() 
+    * [Using new.target in Class Constructors]() 
+    * [Summary]() 
+* [Improved Array Capabilities]() 
+    * [Creating Arrays]() 
+    * [New Methods on All Arrays]() 
+    * [Typed Arrays]() 
+    * [Similarities Between Typed and Regular Arrays]() 
+    * [Differences Between Typed and Regular Arrays]() 
+    * [Summary]() 
+* [Promises and Asynchronous Programming]() 
+    * [Asynchronous Programming Background]() 
+    * [Promise Basics]() 
+    * [Global Promise Rejection Handling]() 
+    * [Chaining Promises]() 
+    * [Responding to Multiple Promises]() 
+    * [Inheriting from Promises]() 
+    * [Summary]() 
+* [Proxies and the Reflection API]() 
+    * [The Array Problem]() 
+    * [What are Proxies and Reflection?]() 
+    * [Creating a Simple Proxy]() 
+    * [Validating Properties Using the set Trap]() 
+    * [Object Shape Validation Using the get Trap]() 
+    * [Hiding Property Existence Using the has Trap]() 
+    * [Preventing Property Deletion with the deleteProperty Trap]() 
+    * [Prototype Proxy Traps]() 
+    * [Object Extensibility Traps]() 
+    * [Property Descriptor Traps]() 
+    * [The ownKeys Trap]() 
+    * [Function Proxies with the apply and construct Traps]() 
+    * [Revocable Proxies]() 
+    * [Solving the Array Problem]() 
+    * [Using a Proxy as a Prototype]() 
+    * [Summary]() 
+* [Encapsulating Code With Modules]() 
+    * [What are Modules?]() 
+    * [Basic Exporting]() 
+    * [Basic Importing]() 
+    * [Renaming Exports and Imports]() 
+    * [Default Values in Modules]() 
+    * [Re-exporting a Binding]() 
+    * [Importing Without Bindings]() 
+    * [Loading Modules]() 
+    * [Summary]() 
+* [Appendix A: Smaller Changes]() 
+    * [Working with Integers]() 
+    * [New Math Methods]() 
+    * [Unicode Identifiers]() 
+    * [Formalizing the __proto__ Property]() 
+* [Appendix B: Understanding ECMAScript 7 (2016)]() 
+    * [The Exponentiation Operator]() 
+    * [The Array.prototype.includes() Method]() 
+    * [Change to Function-Scoped Strict Mode]() 
     
     
     
