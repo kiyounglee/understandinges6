@@ -1,5 +1,5 @@
 # Understanding ECMAScript 6
-   Nicholas C. Zakas
+*by Nicholas C. Zakas*
 ## Table of Contents
 * [Introduction](00-Introduction.md) 
     * [The Road to ECMAScript 6]()   
