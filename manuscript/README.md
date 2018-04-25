@@ -1,5 +1,5 @@
 # [Understanding ECMAScript 6](https://github.com/nzakas/understandinges6)
-*[by Nicholas C. Zakas](https://github.com/nzakas)*
+Aug 16, 2016 *[by Nicholas C. Zakas](https://github.com/nzakas)*
 * [Introduction](00-Introduction.md) 
     * [The Road to ECMAScript 6]()   
     * [About This Book]()    
