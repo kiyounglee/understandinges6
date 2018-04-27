@@ -66,7 +66,7 @@ import { identifier1, identifier2 } from "./example.js";
 
 The curly braces after `import` indicate the bindings to import from a given module. The keyword `from` indicates the module from which to import the given binding. The module is specified by a string representing the path to the module (called the *module specifier*). Browsers use the same path format you might pass to the `<script>` element, which means you must include a file extension. Node.js, on the other hand, follows its traditional convention of differentiating between local files and packages based on a filesystem prefix. For example, `example` would be a package and `./example.js` would be a local file.
 
-I> The list of bindings to import looks similar to a destructured object, but it isn't one.
+> The list of bindings to import looks similar to a destructured object, but it isn't one.
 
 When importing a binding from a module, the binding acts as if it were defined using `const`. That means you can't define another variable with the same name (including importing another binding of the same name), use the identifier before the `import` statement, or change its value.
 
