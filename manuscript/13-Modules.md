@@ -349,7 +349,7 @@ items.pushAll(colors);
 
 This code imports and executes the module containing the `pushAll()` method, so `pushAll()` is added to the array prototype. That means `pushAll()` is now available for use on all arrays inside of this module.
 
-I> Imports without bindings are most likely to be used to create polyfills and shims.
+> Imports without bindings are most likely to be used to create polyfills and shims.
 
 ## Loading Modules
 
