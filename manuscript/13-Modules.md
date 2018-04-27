@@ -434,7 +434,7 @@ Once loading is complete, nothing is executed until after the document has been 
 
 Notice that the inline module acts like the other two modules except that the code doesn't have to be downloaded first. Otherwise, the sequence of loading `import` resources and executing modules is exactly the same.
 
-I> The `defer` attribute is ignored on `<script type="module">` because it already behaves as if `defer` is applied.
+> The `defer` attribute is ignored on `<script type="module">` because it already behaves as if `defer` is applied.
 
 #### Asynchronous Module Loading in Web Browsers
 
