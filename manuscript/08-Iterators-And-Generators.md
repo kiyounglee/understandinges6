@@ -192,7 +192,7 @@ These examples are functionally equivalent to the example in the "Generator Func
 
 Closely related to iterators, an *iterable* is an object with a `Symbol.iterator` property. The well-known `Symbol.iterator` symbol specifies a function that returns an iterator for the given object. All collection objects (arrays, sets, and maps) and strings are iterables in ECMAScript 6 and so they have a default iterator specified. Iterables are designed to be used with a new addition to ECMAScript: the `for-of` loop.
 
-I> All iterators created by generators are also iterables, as generators assign the `Symbol.iterator` property by default.
+> All iterators created by generators are also iterables, as generators assign the `Symbol.iterator` property by default.
 
 At the beginning of this chapter, I mentioned the problem of tracking an index inside a `for` loop. Iterators are the first part of the solution to that problem. The `for-of` loop is the second part: it removes the need to track an index into a collection entirely, leaving you free to focus on working with the contents of the collection.
 
@@ -218,7 +218,7 @@ This `for-of` loop first calls the `Symbol.iterator` method on the `values` arra
 
 If you are simply iterating over values in an array or collection, then it's a good idea to use a `for-of` loop instead of a `for` loop. The `for-of` loop is generally less error-prone because there are fewer conditions to keep track of. Save the traditional `for` loop for more complex control conditions.
 
-W> The `for-of` statement will throw an error when used on, a non-iterable object, `null`, or `undefined`.
+> The `for-of` statement will throw an error when used on, a non-iterable object, `null`, or `undefined`.
 
 ### Accessing the Default Iterator
 
@@ -289,7 +289,7 @@ This code outputs the following:
 
 First, the example defines a default iterator for an object called `collection`. The default iterator is created by the `Symbol.iterator` method, which is a generator (note the star still comes before the name). The generator then uses a `for-of` loop to iterate over the values in `this.items` and uses `yield` to return each one. Instead of manually iterating to define values for the default iterator of `collection` to return, the `collection` object relies on the default iterator of `this.items` to do the work.
 
-I> "Delegating Generators" later in this chapter describes a different approach to using the iterator of another object.
+> "Delegating Generators" later in this chapter describes a different approach to using the iterator of another object.
 
 Now you've seen some uses for the default array iterator, but there are many more iterators built in to ECMAScript 6 to make working with collections of data easy.
 
@@ -472,23 +472,23 @@ No iterator is specified, so the default iterator functions will be used. The de
 
 Arrays and sets return their values by default, while maps return the same array format that can be passed into the `Map` constructor. Weak sets and weak maps, on the other hand, do not have built-in iterators. Managing weak references means there's no way to know exactly how many values are in these collections, which also means there's no way to iterate over them.
 
-A> ### Destructuring and for-of Loops
-A>
-A> The behavior of the default iterator for maps is also helpful when used in `for-of` loops with destructuring, as in this example:
-A>
-A> ```js
-A> let data = new Map();
-A>
-A> data.set("title", "Understanding ECMAScript 6");
-A> data.set("format", "ebook");
-A>
-A> // same as using data.entries()
-A> for (let [key, value] of data) {
-A>     console.log(key + "=" + value);
-A> }
-A> ```
-A>
-A> The `for-of` loop in this code uses a destructured array to assign `key` and `value` for each entry in the map. In this way, you can easily work with keys and values at the same time without needing to access a two-item array or going back to the map to fetch either the key or the value. Using a destructured array for maps makes the `for-of` loop equally useful for maps as it is for sets and arrays.
+> ### Destructuring and for-of Loops
+>
+> The behavior of the default iterator for maps is also helpful when used in `for-of` loops with destructuring, as in this example:
+>
+> ```js
+> let data = new Map();
+>
+> data.set("title", "Understanding ECMAScript 6");
+> data.set("format", "ebook");
+>
+> // same as using data.entries()
+> for (let [key, value] of data) {
+>     console.log(key + "=" + value);
+> }
+> ```
+>
+> The `for-of` loop in this code uses a destructured array to assign `key` and `value` for each entry in the map. In this way, you can easily work with keys and values at the same time without needing to access a two-item array or going back to the map to fetch either the key or the value. Using a destructured array for maps makes the `for-of` loop equally useful for maps as it is for sets and arrays.
 
 ### String Iterators
 
@@ -825,7 +825,7 @@ In this code, the extra `yield` statement explicitly outputs the returned value 
 
 Generator delegation using the return value is a very powerful paradigm that allows for some very interesting possibilities, especially when used in conjunction with asynchronous operations.
 
-I> You can use `yield *` directly on strings (such as `yield * "hello"`) and the string's default iterator will be used.
+> You can use `yield *` directly on strings (such as `yield * "hello"`) and the string's default iterator will be used.
 
 ## Asynchronous Task Running
 
