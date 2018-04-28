@@ -113,20 +113,20 @@ This example passes an array called `items` to the `createIterator()` generator 
 
 Generator functions are an important feature of ECMAScript 6, and since they are just functions, they can be used in all the same places. The rest of this section focuses on other useful ways to write generators.
 
-W> The `yield` keyword can only be used inside of generators. Use of `yield` anywhere else is a syntax error, including functions that are inside of generators, such as:
-W>
-W> ```js
-W> function *createIterator(items) {
-W>
-W>     items.forEach(function(item) {
-W>
-W>         // syntax error
-W>         yield item + 1;
-W>     });
-W> }
-W> ```
-W>
-W> Even though `yield` is technically inside of `createIterator()`, this code is a syntax error because `yield` cannot cross function boundaries. In this way, `yield` is similar to `return`, in that a nested function cannot return a value for its containing function.
+> The `yield` keyword can only be used inside of generators. Use of `yield` anywhere else is a syntax error, including functions that are inside of generators, such as:
+>
+> ```js
+> function *createIterator(items) {
+>
+>     items.forEach(function(item) {
+>
+>         // syntax error
+>         yield item + 1;
+>     });
+> }
+> ```
+>
+> Even though `yield` is technically inside of `createIterator()`, this code is a syntax error because `yield` cannot cross function boundaries. In this way, `yield` is similar to `return`, in that a nested function cannot return a value for its containing function.
 
 ### Generator Function Expressions
 
