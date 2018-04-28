@@ -152,7 +152,7 @@ console.log(iterator.next());           // "{ value: undefined, done: true }"
 
 In this code, `createIterator()` is a generator function expression instead of a function declaration. The asterisk goes between the `function` keyword and the opening parentheses because the function expression is anonymous. Otherwise, this example is the same as the previous version of the `createIterator()` function, which also used a `for` loop.
 
-I> Creating an arrow function that is also a generator is not possible.
+> Creating an arrow function that is also a generator is not possible.
 
 ### Generator Object Methods
 
