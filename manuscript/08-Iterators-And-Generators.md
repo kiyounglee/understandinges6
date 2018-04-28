@@ -67,7 +67,7 @@ Fortunately, ECMAScript 6 also provides generators, which make creating iterator
 
 ## What Are Generators?
 
-&#x1F538;A *generator* is a function that returns an iterator&#x1F538;. Generator functions are indicated by a star character (`*`) after the `function` keyword and use the new `yield` keyword. It doesn't matter if the star is directly next to `function` or if there's some whitespace between it and the `*` character, as in this example:
+[A *generator* is a function that returns an iterator.]() Generator functions are indicated by a star character (`*`) after the `function` keyword and use the new `yield` keyword. It doesn't matter if the star is directly next to `function` or if there's some whitespace between it and the `*` character, as in this example:
 
 ```js
 // generator
