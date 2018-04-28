@@ -22,10 +22,7 @@ While this loop is fairly straightforward, loops grow in complexity when you nes
 
 ## What are Iterators?
 
-```diff 
--Iterators are just objects with a specific interface designed for iteration. 
-```
-All iterator objects have a `next()` method that returns a result object. The result object has two properties: `value`, which is the next value, and `done`, which is a boolean that's `true` when there are no more values to return. The iterator keeps an internal pointer to a location within a collection of values and with each call to the `next()` method, it returns the next appropriate value.
+&#x1F538;Iterators are just objects with a specific interface designed for iteration.&#x1F538; All iterator objects have a `next()` method that returns a result object. The result object has two properties: `value`, which is the next value, and `done`, which is a boolean that's `true` when there are no more values to return. The iterator keeps an internal pointer to a location within a collection of values and with each call to the `next()` method, it returns the next appropriate value.
 
 If you call `next()` after the last value has been returned, the method returns `done` as `true` and `value` contains the *return value* for the iterator. That return value is not part of the data set, but rather a final piece of related data, or `undefined` if no such data exists. An iterator's return value is similar to a function's return value in that it's a final way to pass information to the caller.
 
@@ -70,7 +67,7 @@ Fortunately, ECMAScript 6 also provides generators, which make creating iterator
 
 ## What Are Generators?
 
-<strong style="color:red">A *generator* is a function that returns an iterator</strong>. Generator functions are indicated by a star character (`*`) after the `function` keyword and use the new `yield` keyword. It doesn't matter if the star is directly next to `function` or if there's some whitespace between it and the `*` character, as in this example:
+&#x1F538;A *generator* is a function that returns an iterator&#x1F538;. Generator functions are indicated by a star character (`*`) after the `function` keyword and use the new `yield` keyword. It doesn't matter if the star is directly next to `function` or if there's some whitespace between it and the `*` character, as in this example:
 
 ```js
 // generator
