@@ -980,7 +980,7 @@ Here, `p1` is a built-in promise that is passed to the `MyPromise.resolve()` met
 
 If an instance of `MyPromise` is passed to the `MyPromise.resolve()` or `MyPromise.reject()` methods, it will just be returned directly without being resolved. In all other ways these two methods behave the same as `Promise.resolve()` and `Promise.reject()`.
 
-### Asynchronous Task Running
+## Asynchronous Task Running
 
 In Chapter 8, I introduced generators and showed you how you can use them for asynchronous task running, like this:
 
