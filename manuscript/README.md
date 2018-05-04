@@ -94,6 +94,7 @@
     * [Chaining Promises](11-Promises.md#chaining-promises) 
     * [Responding to Multiple Promises](11-Promises.md#responding-to-multiple-promises) 
     * [Inheriting from Promises](11-Promises.md#inheriting-from-promises) 
+    * [Asynchronous Task Running](11-Promises.md#asynchronous-task-running)
     * [Summary](11-Promises.md#summary) 
 * Chap.12 [Proxies and the Reflection API](12-Proxies-and-Reflection.md) 
     * [The Array Problem](12-Proxies-and-Reflection.md#the-array-problem) 
