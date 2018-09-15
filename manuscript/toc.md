@@ -1,5 +1,5 @@
 ##### myJS
-###### myJS
+####### myJS
 
 ## [Understanding ECMAScript 6](https://github.com/nzakas/understandinges6)
 *Aug 16, 2016(352p) - [by Nicholas C. Zakas](https://github.com/nzakas)*
