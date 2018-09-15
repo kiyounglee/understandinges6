@@ -1,6 +1,6 @@
 #### [*You Dont Konw JS*](https://github.com/kiyounglee/You-Dont-Know-JS/blob/master/toc.md#you-dont-konw-js-detailed----functional-light-javascript-detailed----javascript-allong%C3%A9-detailed) [*(detailed)*](https://github.com/kiyounglee/You-Dont-Know-JS/blob/master/tocd.md#you-dont-konw-js-detailed----functional-light-javascript-detailed----javascript-allong%C3%A9-detailed) - [*Functional Light JS*](https://github.com/kiyounglee/Functional-Light-JS/blob/master/manuscript/toc.md#you-dont-konw-js-detailed----functional-light-javascript-detailed----javascript-allong%C3%A9-detailed) [*(detailed)*](https://github.com/kiyounglee/Functional-Light-JS/blob/master/manuscript/tocd.md#you-dont-konw-js-detailed----functional-light-javascript-detailed----javascript-allong%C3%A9-detailed) - [*Understanding ES6*]() [*(detailed)*]() - [*JS Allongé*](https://github.com/kiyounglee/javascript-allonge-six/blob/master/myAllonge/markdown/toc.md#you-dont-konw-js-detailed----functional-light-javascript-detailed----javascript-allong%C3%A9-detailed) [*(detailed)*](https://github.com/kiyounglee/javascript-allonge-six/blob/master/myAllonge/markdown/tocd.md#you-dont-konw-js-detailed----functional-light-javascript-detailed----javascript-allong%C3%A9-detailed) 
 
-## [Understanding ECMAScript 6](https://github.com/nzakas/understandinges6)
+## [Understanding ECMAScript 6](tocd.md)
 *Aug 16, 2016(352p) - [by Nicholas C. Zakas](https://github.com/nzakas)*
 * Chap.00 [Introduction](00-Introduction.md) 
 * Chap.01 [Block Bindings](01-Block-Bindings.md) 
