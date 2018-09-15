@@ -14,6 +14,5 @@
 * Chap.11 [Promises and Asynchronous Programming](11-Promises.md) 
 * Chap.12 [Proxies and the Reflection API](12-Proxies-and-Reflection.md) 
 * Chap.13 [Encapsulating Code With Modules](13-Modules.md) 
-
 * Appendix.A: [Smaller Changes](A-Other-Changes.md) 
 * Appendix.B: [Understanding ECMAScript 7 (2016)](B-ECMAScript-7.md) 
