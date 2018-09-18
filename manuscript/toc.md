@@ -6,7 +6,7 @@
 [Understanding ES6]: https://github.com/kiyounglee/understandinges6/blob/master/manuscript/toc.md#----
 [JS Allongé]: https://github.com/kiyounglee/javascript-allonge-six/blob/master/myAllonge/markdown/toc.md#----
 
-## [Understanding ECMAScript 6](tocd.md#you-dont-konw-js-detailed---functional-light-js-detailed---understanding-es6-detailed---js-allong%C3%A9-detailed)
+## [Understanding ECMAScript 6](tocd.md#----)
 *Aug 16, 2016(352p) - [by Nicholas C. Zakas](https://github.com/nzakas)*
 * Chap.00 [Introduction](00-Introduction.md) 
 * Chap.01 [Block Bindings](01-Block-Bindings.md) 
