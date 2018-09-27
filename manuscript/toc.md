@@ -1,12 +1,6 @@
 <a name="top"></a>
+## [Understanding ECMAScript 6](#middle)
 ***[You Dont Konw JS]** --- **[Functional Light JS]** --- **[Understanding ES6]** --- **[Javascript Allongé-6th]***
-
-[You Dont Konw JS]: https://github.com/kiyounglee/You-Dont-Know-JS/blob/master/toc.md#top
-[Functional Light JS]: https://github.com/kiyounglee/Functional-Light-JS/blob/master/manuscript/toc.md#top
-[Understanding ES6]: https://github.com/kiyounglee/understandinges6/blob/master/manuscript/toc.md#top
-[Javascript Allongé-6th]: https://github.com/kiyounglee/javascript-allonge-six/blob/master/myAllonge/markdown/toc.md#top
-
-## [Understanding ECMAScript 6](#understanding-ecmascript-6-detailed)
 *Aug 16, 2016(352p) - [by Nicholas C. Zakas](https://github.com/nzakas)*
 * Chap.00 [Introduction](00-Introduction.md) 
 * Chap.01 [Block Bindings](01-Block-Bindings.md) 
@@ -25,7 +19,9 @@
 * Appendix.A: [Smaller Changes](A-Other-Changes.md) 
 * Appendix.B: [Understanding ECMAScript 7 (2016)](B-ECMAScript-7.md) 
 
+<a name="middle"></a>
 ## [Understanding ECMAScript 6](#top) *(detailed)*
+***[You Dont Konw JS]** --- **[Functional Light JS]** --- **[Understanding ES6]** --- **[Javascript Allongé-6th]***
 *Aug 16, 2016(352p) - [by Nicholas C. Zakas](https://github.com/nzakas)*
 * Chap.00 [Introduction](00-Introduction.md) 
     * [The Road to ECMAScript 6](00-Introduction.md)   
@@ -159,3 +155,8 @@
     * [The Exponentiation Operator](B-ECMAScript-7.md#the-exponentiation-operator) 
     * [The Array.prototype.includes() Method](B-ECMAScript-7.md#the-arrayprototypeincludes-method) 
     * [Change to Function-Scoped Strict Mode](B-ECMAScript-7.md#change-to-function-scoped-strict-mode) 
+
+[You Dont Konw JS]: https://github.com/kiyounglee/You-Dont-Know-JS/blob/master/toc.md#top
+[Functional Light JS]: https://github.com/kiyounglee/Functional-Light-JS/blob/master/manuscript/toc.md#top
+[Understanding ES6]: https://github.com/kiyounglee/understandinges6/blob/master/manuscript/toc.md#top
+[Javascript Allongé-6th]: https://github.com/kiyounglee/javascript-allonge-six/blob/master/myAllonge/markdown/toc.md#top
