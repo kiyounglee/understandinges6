@@ -20,7 +20,7 @@
 * Appendix.B: [Understanding ECMAScript 7 (2016)](B-ECMAScript-7.md) 
 
 <a name="middle"></a>
-## [Understanding ECMAScript 6](#top) *(detailed)*
+## [Understanding ECMAScript 6](#top) *- detail*
 ***[You Dont Konw JS]** --- **[Functional Light JS]** --- **[Understanding ES6]** --- **[Javascript Allongé-6th]***     
 *Aug 16, 2016(352p) - [by Nicholas C. Zakas](https://github.com/nzakas)*
 * Chap.00 [Introduction](00-Introduction.md) 
