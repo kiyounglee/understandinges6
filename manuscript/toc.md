@@ -21,7 +21,7 @@
 
 <a name="middle"></a>
 ## [Understanding ECMAScript 6](#top) *- detail*
-***[You Dont Konw JS]** --- **[Functional Light JS]** --- **[Understanding ES6]** --- **[Javascript Allongé-6th]***     
+***[You Dont Konw JS][det_1]** --- **[Functional Light JS][det_2]** --- **[Understanding ES6][det_3]** --- **[Javascript Allongé-6th][det_4]***  
 *Aug 16, 2016(352p) - [by Nicholas C. Zakas](https://github.com/nzakas)*
 * Chap.00 [Introduction](00-Introduction.md) 
     * [The Road to ECMAScript 6](00-Introduction.md)   
